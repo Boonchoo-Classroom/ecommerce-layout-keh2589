@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import scisrc.mobiledev.ecommercelayout.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {
-
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding!!
 

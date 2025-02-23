@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.Product_List.ProductFragment">
 
-
     <!-- Product Categories -->
     <LinearLayout
         android:layout_width="match_parent"

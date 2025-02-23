@@ -12,7 +12,6 @@ import scisrc.mobiledev.ecommercelayout.ui.Shopping_cart.ShoppingFragment
 import scisrc.mobiledev.ecommercelayout.ui.Favorites.FavoritesFragment
 import scisrc.mobiledev.ecommercelayout.ui.Profile.ProfileFragment
 
-
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var drawerLayout: DrawerLayout
