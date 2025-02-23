@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.Favorites.FavoritesFragment">
+
+    <!-- Header Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text=" Favorites "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <!-- Horizontal Layout for Favorite Items -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- Favorite Item 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/abibas"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/f02"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/product_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="essence"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/product_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="59฿"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_add_to_cart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="8dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp" />
+        </LinearLayout>
+
+        <!-- Favorite Item 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/f03"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/f03"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/product_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guccl"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/product_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000฿"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_add_to_cart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="8dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
